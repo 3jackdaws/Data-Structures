@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C3BC9A11C6343F000EB54F4 /* DisplayManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C3BC99F1C6343F000EB54F4 /* DisplayManager.cpp */; };
+		3C3BC9A41C6345F900EB54F4 /* GameBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C3BC9A21C6345F900EB54F4 /* GameBoard.cpp */; };
+		3C3BC9A71C63DEF200EB54F4 /* Deck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C3BC9A51C63DEF200EB54F4 /* Deck.cpp */; };
+		3C3BC9AC1C63DF4E00EB54F4 /* Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C3BC9A91C63DF4E00EB54F4 /* Exception.cpp */; };
+		3C3BC9B81C63F8E200EB54F4 /* FreeCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C3BC9B61C63F8E200EB54F4 /* FreeCell.cpp */; };
+		3C8C79E71C612E550091FEB6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C8C79E61C612E550091FEB6 /* main.cpp */; };
+		3C8C7A051C633F6F0091FEB6 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C8C7A031C633F6F0091FEB6 /* Card.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C8C79E11C612E550091FEB6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C3BC99F1C6343F000EB54F4 /* DisplayManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DisplayManager.cpp; sourceTree = "<group>"; };
+		3C3BC9A01C6343F000EB54F4 /* DisplayManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DisplayManager.hpp; sourceTree = "<group>"; };
+		3C3BC9A21C6345F900EB54F4 /* GameBoard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameBoard.cpp; sourceTree = "<group>"; };
+		3C3BC9A31C6345F900EB54F4 /* GameBoard.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameBoard.hpp; sourceTree = "<group>"; };
+		3C3BC9A51C63DEF200EB54F4 /* Deck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Deck.cpp; sourceTree = "<group>"; };
+		3C3BC9A61C63DEF200EB54F4 /* Deck.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Deck.hpp; sourceTree = "<group>"; };
+		3C3BC9A81C63DF4E00EB54F4 /* Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
+		3C3BC9A91C63DF4E00EB54F4 /* Exception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exception.cpp; sourceTree = "<group>"; };
+		3C3BC9AA1C63DF4E00EB54F4 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		3C3BC9AB1C63DF4E00EB54F4 /* StackA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackA.h; sourceTree = "<group>"; };
+		3C3BC9B21C63F62800EB54F4 /* LinkedList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
+		3C3BC9B31C63F62800EB54F4 /* LLNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LLNode.hpp; sourceTree = "<group>"; };
+		3C3BC9B41C63F62800EB54F4 /* StackL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackL.h; sourceTree = "<group>"; };
+		3C3BC9B61C63F8E200EB54F4 /* FreeCell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FreeCell.cpp; path = FreeCell/FreeCell.cpp; sourceTree = "<group>"; };
+		3C3BC9B71C63F8E200EB54F4 /* FreeCell.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FreeCell.hpp; path = FreeCell/FreeCell.hpp; sourceTree = "<group>"; };
+		3C8C79E31C612E550091FEB6 /* FreeCell */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FreeCell; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8C79E61C612E550091FEB6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3C8C7A031C633F6F0091FEB6 /* Card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
+		3C8C7A041C633F6F0091FEB6 /* Card.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Card.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C8C79E01C612E550091FEB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C3BC9AD1C63DF5800EB54F4 /* Array Stack */ = {
+			isa = PBXGroup;
+			children = (
+				3C3BC9A81C63DF4E00EB54F4 /* Array.h */,
+				3C3BC9A91C63DF4E00EB54F4 /* Exception.cpp */,
+				3C3BC9AA1C63DF4E00EB54F4 /* Exception.h */,
+				3C3BC9AB1C63DF4E00EB54F4 /* StackA.h */,
+			);
+			name = "Array Stack";
+			sourceTree = "<group>";
+		};
+		3C3BC9AE1C63DF6600EB54F4 /* Deck */ = {
+			isa = PBXGroup;
+			children = (
+				3C3BC9A51C63DEF200EB54F4 /* Deck.cpp */,
+				3C3BC9A61C63DEF200EB54F4 /* Deck.hpp */,
+			);
+			name = Deck;
+			sourceTree = "<group>";
+		};
+		3C3BC9AF1C63DF6D00EB54F4 /* GameBoard */ = {
+			isa = PBXGroup;
+			children = (
+				3C3BC9A21C6345F900EB54F4 /* GameBoard.cpp */,
+				3C3BC9A31C6345F900EB54F4 /* GameBoard.hpp */,
+			);
+			name = GameBoard;
+			sourceTree = "<group>";
+		};
+		3C3BC9B01C63DF7700EB54F4 /* DisplayManager */ = {
+			isa = PBXGroup;
+			children = (
+				3C3BC99F1C6343F000EB54F4 /* DisplayManager.cpp */,
+				3C3BC9A01C6343F000EB54F4 /* DisplayManager.hpp */,
+			);
+			name = DisplayManager;
+			sourceTree = "<group>";
+		};
+		3C3BC9B11C63DF8000EB54F4 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				3C8C7A031C633F6F0091FEB6 /* Card.cpp */,
+				3C8C7A041C633F6F0091FEB6 /* Card.hpp */,
+			);
+			name = Card;
+			sourceTree = "<group>";
+		};
+		3C3BC9B51C63F63400EB54F4 /* List Stack */ = {
+			isa = PBXGroup;
+			children = (
+				3C3BC9B21C63F62800EB54F4 /* LinkedList.hpp */,
+				3C3BC9B31C63F62800EB54F4 /* LLNode.hpp */,
+				3C3BC9B41C63F62800EB54F4 /* StackL.h */,
+			);
+			name = "List Stack";
+			sourceTree = "<group>";
+		};
+		3C3BC9B91C63F8E600EB54F4 /* FreeCell */ = {
+			isa = PBXGroup;
+			children = (
+				3C3BC9B61C63F8E200EB54F4 /* FreeCell.cpp */,
+				3C3BC9B71C63F8E200EB54F4 /* FreeCell.hpp */,
+			);
+			name = FreeCell;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3C8C79DA1C612E550091FEB6 = {
+			isa = PBXGroup;
+			children = (
+				3C8C79E51C612E550091FEB6 /* FreeCell */,
+				3C8C79E41C612E550091FEB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C8C79E41C612E550091FEB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C8C79E31C612E550091FEB6 /* FreeCell */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C8C79E51C612E550091FEB6 /* FreeCell */ = {
+			isa = PBXGroup;
+			children = (
+				3C8C79E61C612E550091FEB6 /* main.cpp */,
+				3C3BC9B91C63F8E600EB54F4 /* FreeCell */,
+				3C3BC9B11C63DF8000EB54F4 /* Card */,
+				3C3BC9B01C63DF7700EB54F4 /* DisplayManager */,
+				3C3BC9AF1C63DF6D00EB54F4 /* GameBoard */,
+				3C3BC9AE1C63DF6600EB54F4 /* Deck */,
+				3C3BC9AD1C63DF5800EB54F4 /* Array Stack */,
+				3C3BC9B51C63F63400EB54F4 /* List Stack */,
+			);
+			path = FreeCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C8C79E21C612E550091FEB6 /* FreeCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8C79EA1C612E550091FEB6 /* Build configuration list for PBXNativeTarget "FreeCell" */;
+			buildPhases = (
+				3C8C79DF1C612E550091FEB6 /* Sources */,
+				3C8C79E01C612E550091FEB6 /* Frameworks */,
+				3C8C79E11C612E550091FEB6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeCell;
+			productName = FreeCell;
+			productReference = 3C8C79E31C612E550091FEB6 /* FreeCell */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C8C79DB1C612E550091FEB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ian Murphy";
+				TargetAttributes = {
+					3C8C79E21C612E550091FEB6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 3C8C79DE1C612E550091FEB6 /* Build configuration list for PBXProject "FreeCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C8C79DA1C612E550091FEB6;
+			productRefGroup = 3C8C79E41C612E550091FEB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C8C79E21C612E550091FEB6 /* FreeCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C8C79DF1C612E550091FEB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3BC9A41C6345F900EB54F4 /* GameBoard.cpp in Sources */,
+				3C3BC9AC1C63DF4E00EB54F4 /* Exception.cpp in Sources */,
+				3C8C79E71C612E550091FEB6 /* main.cpp in Sources */,
+				3C8C7A051C633F6F0091FEB6 /* Card.cpp in Sources */,
+				3C3BC9A11C6343F000EB54F4 /* DisplayManager.cpp in Sources */,
+				3C3BC9B81C63F8E200EB54F4 /* FreeCell.cpp in Sources */,
+				3C3BC9A71C63DEF200EB54F4 /* Deck.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3C8C79E81C612E550091FEB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3C8C79E91C612E550091FEB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3C8C79EB1C612E550091FEB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C8C79EC1C612E550091FEB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C8C79DE1C612E550091FEB6 /* Build configuration list for PBXProject "FreeCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8C79E81C612E550091FEB6 /* Debug */,
+				3C8C79E91C612E550091FEB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C8C79EA1C612E550091FEB6 /* Build configuration list for PBXNativeTarget "FreeCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8C79EB1C612E550091FEB6 /* Debug */,
+				3C8C79EC1C612E550091FEB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C8C79DB1C612E550091FEB6 /* Project object */;
+}
